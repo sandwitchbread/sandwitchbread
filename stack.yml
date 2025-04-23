@@ -1,0 +1,9 @@
+- name: JavaScript
+  logo: javascript
+  projects:
+    - url: https://github.com/sandwitch/project1
+
+- name: Python
+  logo: python
+  projects:
+    - url: https://github.com/sandwitch/project2

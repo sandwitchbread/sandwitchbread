@@ -1,0 +1,18 @@
+name: Generate Tech Stack
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate_stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gleich/profile_stack@v2.1.0
+        with:
+          path: stack.yml
+          badges: false
+          technology_emoji: ''
+          project_emoji: ''
